@@ -168,11 +168,11 @@
 @media screen and (min-width: 768px) {
   .header{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
   }
 
   .header_mobile_menu{
-    display: none;
+    
   }
 
   .mobile_logo{
@@ -181,7 +181,7 @@
 
   .header_main_nav{
     display: block;
-    margin-right: calc(25% + 45px);
+    
   }
 
   .item_link > a:hover{
@@ -191,8 +191,7 @@
 
 @media screen and (min-width: 992px) {
   .header_main_nav{
-    display: block;
-    margin-right: calc(50% - 300px);
+    display: block;    
   }
 
   .header_mobile_user{
