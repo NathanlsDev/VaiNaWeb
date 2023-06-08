@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html{
+  font-family: 'Actor', 'Lily Script One', sans-serif, cursive;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.header{
+  font-family: 'Lily Script One';
+  font-size: 3.2rem;
+  height: 30vh;
+}
+
+.header_nav{
+  height: 100%;
+}
+
+.nav_list{
+  padding-top: 78px;
+  text-align: center;
+}
+
+.list_item{
+  display: inline-block;
+}
+
+.list_item, .central{
+  margin: 0 128px 0 128px;
+}
+
+.list_item > a{
+  color: white;
+}
