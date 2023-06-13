@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 html{
@@ -77,4 +78,47 @@ body{
 .card_image{
   max-width: 100%;
   object-fit: cover;
+}
+
+.footer{
+  height: 30vh;
+  padding: 70px 30px;
+  text-align: center;
+}
+
+.footer_infos{
+  max-width: 100%;
+}
+
+.footer_description{
+  font-size: 2rem;
+  display: inline-block;
+  margin-right: 1.6rem;
+}
+
+.footer_nav{
+  display: inline-block;
+}
+
+.footer_list_item{
+  display: inline-block;
+}
+
+.footer_list_item > a{
+  margin: 0 1rem;
+}
+
+.footer_list_item > .youtube{
+  content: url('../img/youtube.png');
+  width: 50px;
+}
+
+.footer_list_item > .instagram{
+  content: url('../img/instagram.png');
+  width: 40px;
+}
+
+.footer_list_item > .disney{
+  content: url('../img/disney-plus-logo.png');
+  width: 110px;
 }
