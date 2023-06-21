@@ -12,7 +12,7 @@ html{
 }
 
 body{
-  background: url("../img/background-hell.png") center / cover no-repeat fixed;  
+  background: url("../img/background-hell.png") center / cover no-repeat fixed;   
 }
 
 .header{
@@ -30,28 +30,24 @@ body{
 
 .nav-list-left{
   display: flex;
-  justify-content: space-between;
   align-items: center;
-}
-
-.list-item{
-  padding: 1.6rem;
+  width: 300px;
+  justify-content: space-between;
 }
 
 .list-item > a{
   color: #FFFFFF;
 }
 .list-item > a:hover{
-  color: #FFFFFF;
   font-weight: bold;
 }
 
-
 .list-item-image{
-  height: 100px;
+  height: 14vh;
 }
 
 .nav-list-right{
   display: flex;
+  justify-content: space-between;
+  width: 400px;
 }
-
