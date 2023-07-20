@@ -1,0 +1,42 @@
+.service-container {
+  background: var(--opaque) url("../img/2st-desktop-bg.webp") center bottom /
+    contain no-repeat fixed;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  color: var(--black-t1);
+}
+
+.service-title {
+  font-size: 4rem;
+}
+
+.service-desc {
+  font-size: 2.8rem;
+  margin-top: 16px;
+  max-width: 400px;
+}
+
+.service-cta {
+  background-color: var(--black-t1);
+  color: var(--opaque);
+}
+
+@media screen and (max-width: 768px) {
+  .service-container {
+    background: var(--opaque) url("../img/2st-mobile-bg.webp") center bottom /
+      contain no-repeat fixed;
+  }
+
+  .service {
+    justify-content: flex-start;
+  }
+
+  .service-title {
+    margin-top: 80px;
+  }
+}

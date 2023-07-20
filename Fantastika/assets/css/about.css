@@ -1,0 +1,46 @@
+.about-container {
+  background: url("../img/3st-desktop-bg.webp") center top / cover no-repeat;
+}
+
+.about {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  color: var(--white);
+}
+
+.about-toRight {
+  max-width: 600px;
+}
+
+.about-title {
+  font-size: 4rem;
+  max-width: 300px;
+}
+
+.about-desc {
+  margin-top: 16px;
+  font-size: 2.8rem;
+  max-width: 450px;
+}
+
+.about-cta {
+  background-color: var(--white);
+  color: var(--black-t3);
+}
+
+@media screen and (max-width: 900px) {
+  .about-container {
+    background: url("../img/3st-mobile-bg.webp") center / cover no-repeat;
+  }
+
+  .about {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .about-title {
+    margin-top: 60px;
+  }
+}

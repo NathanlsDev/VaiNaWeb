@@ -1,0 +1,23 @@
+.navigation {
+  width: 16vw;
+}
+
+.list-item > a > img {
+  width: 34px;
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    width: 140px;
+  }
+  .nav-list {
+    text-align: center;
+    flex-direction: row-reverse;
+  }
+}

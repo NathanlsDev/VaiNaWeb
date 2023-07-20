@@ -1,0 +1,11 @@
+:root {
+  --white: #ffffff;
+  --opaque: #f4f2f3;
+  --pink: #fd6a9a;
+  --dark-pink: #eb4a7b;
+  --black-t1: #3a342f;
+  --black-t2: #252525;
+  --black-t3: #000000;
+  --roboto: "Roboto", sans-serif;
+  --roboto-serif: "Roboto Serif", serif;
+}

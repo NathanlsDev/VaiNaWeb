@@ -1,0 +1,69 @@
+@import url(variables.css);
+@import url(header.css);
+@import url(navBar.css);
+@import url(welcome.css);
+@import url(service.css);
+@import url(about.css);
+@import url(button.css);
+@import url(sponsorship.css);
+@import url(footer.css);
+
+* {
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-family: var(--roboto);
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 360px;
+}
+
+h1, h2, h3 {
+  font-family: var(--roboto-serif);
+  font-weight: 700;
+}
+
+.spacing-size {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 62px;
+}
+
+.flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .spacing-size {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .spacing-size {
+    padding: 0 16px;
+  }
+}

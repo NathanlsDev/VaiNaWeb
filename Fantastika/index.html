@@ -3,13 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fantastika | A melhor pet shop da web 🐶</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      rel="shortcut icon"
-      href="assets/svg/fantastika-logo.svg"
-      type="image/x-icon"
-    />
+    <title>Fantastika | A melhor pet shop da web</title>
+    <link rel="stylesheet" href="assets/css/baseStyles.css" />
+    <link rel="shortcut icon" href="assets/svg/fantastika-logo.svg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,23 +16,19 @@
 
   <body>
     <header class="header">
-      <div class="header-container">
-        <div class="header-presentation">
-          <img
-            class="header-logo"
-            src="assets/svg/fantastika-logo.svg"
-            alt="Logo Fantastika pet shop"
-          />
+      <div class="header-container spacing-size flex-center-between">
+        <div class="header-presentation flex-center-between">
+          <img class="header-logo" src="assets/svg/fantastika-logo.svg" alt="Logo Fantastika pet shop" />
           <h1 class="header-title">Fantastika</h1>
         </div>
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="list-item" title="Instagram">
+        <nav class="navigation">
+          <ul class="nav-list flex-center-between">
+            <li class="list-item desktop" title="Instagram">
               <a href="https://www.instagram.com/" tabindex="0" target="_blank">
                 <img src="assets/svg/fantastika-ig.svg" alt="Acessar Instagram" />
               </a>
             </li>
-            <li class="list-item" title="YouTube">
+            <li class="list-item desktop" title="YouTube">
               <a href="https://www.youtube.com/" tabindex="0" target="_blank">
                 <img src="assets/svg/fantastika-yt.svg" alt="Acessar YouTube" />
               </a>
@@ -57,50 +49,68 @@
         <div class="welcome-logo"></div>
       </section>
       <section class="service-container">
-        <div class="service">
+        <div class="service spacing-size">
           <h2 class="service-title">Só banho e tosa?</h2>
           <p class="service-desc">
             O cuidado com seu cão é prioridade para nós. Possuímos toda
             estrutura necessária para cuidar da saúde, higiene e bem estar
             emocional do seu pet.
           </p>
-          <button class="service-cta" tabindex="0">Fale conosco</button>
+          <button class="service-cta button" tabindex="0">Fale conosco</button>
         </div>
       </section>
       <section class="about-container">
-        <div class="about">
-          <div class="about-toright">
+        <div class="about spacing-size">
+          <div class="about-toRight">
             <h2 class="about-title">Mordomia Saudável</h2>
             <p class="about-desc">
               Temos um espaço dedicado a saúde e higiene canina, com ambientes
               para interação social entre cães com período monitorado, massagem
               e terapia.
             </p>
-            <button class="about-cta" tabindex="0">Fale conosco</button>
+            <button class="about-cta button" tabindex="0">Fale conosco</button>
           </div>
         </div>
       </section>
-      <section class="sponsorship">
-        <div class="sponsorship-centralizer">
-          <h3 class="sponsorship-title">apoio:</h3>
-          <ul class="sponsorship-list">
-            <li class="sponsorship-item">
-              <a href="https://havaianas.com.br/" tabindex="0" target="_blank"
-                ><img src="./assets/svg/havaianas.svg" alt="havaianas"
-              /></a>
-            </li>
-            <li class="sponsorship-item">
-              <a href="https://www.americanas.com.br/" tabindex="0" target="_blank"
-                ><img src="./assets/svg/americanas.svg" alt="americanas"
-              /></a>
-            </li>
-          </ul>
-        </div>
+      <section class="sponsorship spacing-size">
+        <h3 class="sponsorship-title">apoio:</h3>
+        <ul class="sponsorship-list">
+          <li class="sponsorship-item">
+            <a href="https://havaianas.com.br/" tabindex="0" target="_blank">
+              <img src="./assets/svg/havaianas.svg" alt="havaianas" />
+            </a>
+          </li>
+          <li class="sponsorship-item">
+            <a href="https://www.americanas.com.br/" tabindex="0" target="_blank">
+              <img src="./assets/svg/americanas.svg" alt="americanas" />
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer-container">
+      <div class="footer-container spacing-size">
+        <div class="footer-logo mobile"></div>
+        <nav class="navigation mobile">
+          <ul class="nav-list flex-center-between">
+            <li class="list-item" title="Instagram">
+              <a href="https://www.instagram.com/" tabindex="0" target="_blank">
+                <img src="assets/svg/fantastika-ig.svg" alt="Acessar Instagram" />
+              </a>
+            </li>
+            <li class="list-item" title="YouTube">
+              <a href="https://www.youtube.com/" tabindex="0" target="_blank">
+                <img src="assets/svg/fantastika-yt.svg" alt="Acessar YouTube" />
+              </a>
+            </li>
+            <li class="list-item" title="WhatsApp">
+              <a href="https://web.whatsapp.com/" tabindex="0" target="_blank">
+                <img src="assets/svg/fantastika-whats.svg" alt="Acessar WhatsApp" />
+              </a>
+            </li>
+          </ul>
+        </nav>
         <section class="footer-infos">
           <h3 class="footer-title">Atendimento</h3>
           <ul class="footer-list">
