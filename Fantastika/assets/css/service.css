@@ -26,10 +26,10 @@
   color: var(--opaque);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .service-container {
     background: var(--opaque) url("../img/2st-mobile-bg.webp") center bottom /
-      contain no-repeat fixed;
+      contain no-repeat local;
   }
 
   .service {

@@ -3,6 +3,9 @@
 }
 
 .header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 62px;
   height: 10vh;
 }
 
@@ -11,10 +14,27 @@
 }
 
 .header-logo {
-  max-width: 50px;
+  max-width: 60px;
 }
 
 .header-title {
   color: var(--white);
   font-size: 2.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    padding: 24px 32px;
+    height: auto;
+  }
+
+  .header-logo {
+    max-width: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-container {
+    padding: 24px 16px;
+  }
 }

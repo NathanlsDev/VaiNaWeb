@@ -24,7 +24,31 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (max-height: 480px) {
+  .welcome-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-height: 360px) {
+  .welcome-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .welcome-logo {
+    margin-top: 26px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .main-welcome {
+    background-attachment: local;
+  }
+
   .welcome-title {
     margin-top: 60px;
   }
