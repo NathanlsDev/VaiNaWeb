@@ -39,6 +39,10 @@
   color: var(--white);
 }
 
+.footer-item > a:hover{
+  color: var(--black-t1);
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     padding: 54px 0;

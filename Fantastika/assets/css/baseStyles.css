@@ -1,12 +1,12 @@
-@import url(variables.css);
-@import url(header.css);
-@import url(navBar.css);
-@import url(welcome.css);
-@import url(service.css);
-@import url(about.css);
-@import url(button.css);
-@import url(sponsorship.css);
-@import url(footer.css);
+@import url(_variables.css);
+@import url(_header.css);
+@import url(_navBar.css);
+@import url(_welcome.css);
+@import url(_service.css);
+@import url(_about.css);
+@import url(_button.css);
+@import url(_sponsorship.css);
+@import url(_footer.css);
 
 * {
   border: none;
