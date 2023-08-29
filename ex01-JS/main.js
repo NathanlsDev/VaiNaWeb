@@ -87,7 +87,7 @@ function trueOrFalse(param) {
     console.log(param);
   } else {
     console.log(
-      `The received parameter is a [${typeof param}], and does not match the expected types: 'true'/'false'`
+      `The received parameter is a [${typeof param}], and does not match the expected value: 'true'/'false'`
     );
   }
 }
