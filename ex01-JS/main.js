@@ -4,7 +4,7 @@ console.log(`Question 01:`);
 function dayTime() {
   const date = new Date();
   const hour = date.getHours();
-  const isDay = hour > 6 && hour < 18;
+  const isDay = hour >= 6 && hour < 18;
 
   if (isDay) {
     console.log(`Now it's ${hour}h, it's day.`);
