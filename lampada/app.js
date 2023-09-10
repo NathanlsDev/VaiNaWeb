@@ -26,5 +26,3 @@ const alterarStatusLampada = (obj) => {
 };
 
 body.addEventListener("click", controleInterruptor);
-
-//decoupling insertion of the changed elements into the DOM
